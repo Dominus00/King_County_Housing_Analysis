@@ -2,7 +2,12 @@
 title: "King County Housing Analysis"
 author: "Brit Freeman"
 date: "9/16/2021"
-output: html_document
+html_document:
+    toc: true
+    toc_float: true
+    df_print: paged
+    code_download: true
+    theme: readable
 ---
 
 ```{r setup, include=FALSE}
